@@ -1,0 +1,25 @@
+body{
+    background-image: url(pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+.container{
+    display: flex;
+    
+}
+.card{
+    height: 300px;
+    width: 300px;
+    margin: 23px;
+    padding: 0;
+    border: 10px  ;
+}
+#card1{
+    margin: 0;
+    padding: 0;
+}
+#card2{
+    
+}

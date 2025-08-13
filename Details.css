@@ -1,0 +1,16 @@
+.first{
+    background-color: rgb(24, 235, 235)
+
+}
+.odd{
+    background-color:red;
+}
+.even{
+    background-color: aqua;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 7px;
+    margin: auto;
+    
+}
