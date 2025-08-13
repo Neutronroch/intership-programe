@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="studentportfolio.css">
+</head>
+<body> 
+  <div id="port">
+
+<header>
+  <nav class="navbar">
+    <ul class="navigation">
+      <li class="item1"><button><a href="home.html">home</a></button></li>
+      <li class="item2"><button><a href="About.html">About</a></button></li>
+      <li class="item3"><button><a href="Contact.html">Contact</a></button></li>
+      
+      <li class="item4"> <button><a href="Student_Details.html">Student details</a></button></li>
+      <li class="item5"><button><a href="Teacher_details.html">Teacher detail</a></button></li>
+    </ul>
+  </nav>
+</header>
+</div>
+<br>
+<div class="container">
+  <div class="card-body">
+    <form action="submit.php" method="post">
+  <label>Student Name:</label><br>
+  <input type="text" name="student_name" required><br><br>
+
+  <label>Course:</label><br>
+  <input type="text" name="course" required><br><br>
+
+  <label>Year:</label><br>
+  <input type="number" name="year" required><br><br>
+
+  <label>Roll No:</label><br>
+  <input type="text" name="roll_no" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+</div>
+<div class="card-image">
+    <img src="pic2.png" alt="Student Portal">
+  </div>
+
+    
+</body>
+</html> 
